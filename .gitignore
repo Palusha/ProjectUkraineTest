@@ -1,0 +1,44 @@
+#Python 
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.sqlite3
+media/
+static/
+staticfiles/
+
+# Backup files #
+*.bak
+
+# Pycharm
+*/.idea/
+.idea/
+.DS_Store
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Enviroments
+*.env
+*/venv
+venv
+# Local
+*/local/
+
+*.vscode/
+
+# Media
+uploads
